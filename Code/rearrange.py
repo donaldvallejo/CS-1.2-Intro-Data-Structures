@@ -13,4 +13,4 @@ if __name__ == '__main__':
     #quote = random_python_quote()
     random.shuffle(quotes)
     a = ' '.join(quotes)
-    print(a)
+    print(a) 

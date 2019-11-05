@@ -1,4 +1,5 @@
 import pprint
+from sampling import sampling
 d = dict()
 
 # histogram()
@@ -35,4 +36,4 @@ print(c)
 def frequency(word, histogram):
     # search keyword histogram
     return histogram[word]
-pp.pprint(frequency("with", d))
+pp.pprint(frequency("would", d))
